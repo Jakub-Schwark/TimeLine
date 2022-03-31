@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.time-line {
+    width: 1525px;
+    height: 402px;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    left: 142.32px;
+    width: 1396.59px;
+    height: 220.74px;
+}
+
+.line {
+    position: relative;
+    top: 50%;
+    left: 18.27px;
+    border-bottom: 6px solid #baac9f;
+    width: 1463px;
+}
+
+.circle-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1463.59px;
+    height: 220.74px;
+}
+
+.circle {
+    background-image: url(./Ellipse-35.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 73.16px;
+    height: 73.16px;
+    left: 18px;
+    top: 70px;
+    z-index: 2;
+} 
+
+
+.circle-black {
+    background-image: url(./Ellipse-28.png);
+    transition: 0.5s;
+}
+
+#scroll {
+    position: absolute;
+    top: 20.16px;
+    left: 20.16px;
+}
+
+.vertical-up {
+    position: relative;
+    border-left: 1px solid #baac9f;
+    height: 89.9px;
+    top: -89px;
+    left: 35px;  
+}
+
+.vertical-down {
+    position: relative;
+    border-left: 1px solid #baac9f;
+    height: 89.9px;
+    top: 73px;
+    left: 35px;    
+}
+
+.vertical-black {
+    border-left: 1px solid #060606;
+    transition: 0.5s;
+}
+
+.text-up {
+    position: relative;
+    text-align: center;
+    color: #baac9f;
+    width: 145px;
+    top: -250px;
+    left: -35px;
+}
+
+.text-down {
+    position: relative;
+    text-align: center;
+    color: #baac9f;
+    width: 145px;
+    top: 100px;
+    left: -35px;
+}
+
+.text-black {
+    color: #060606;
+}
+
+.date {
+    font-size: 12px;
+    line-height: 40px;
+}
